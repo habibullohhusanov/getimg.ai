@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["prompt"])) {
         $height = 512;
     }
     $apiUrl = 'https://api.getimg.ai/v1/stable-diffusion/text-to-image';
-    $apiKey = "getimg.ai Token";
+    $apiKey = "";
     $headers = [
         "accept: application/json",
         "content-type: application/json",
